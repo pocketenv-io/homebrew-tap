@@ -22,7 +22,7 @@ Or `brew tap pocketenv-io/tap` and then `brew install <formula>`.
 With the following commands, you can install the latest version of each package:
 ```sh
 # Formulae
-brew install pocketenv-io/tap/cli
+brew install pocketenv-io/tap/pocketenv
 ```
 
 ## Documentation

@@ -15,7 +15,7 @@ class Pocketenv < Formula
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.2.4/pocketenv_v0.2.2_x86_64-unknown-linux-gnu.tar.gz"
+    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.2.4/pocketenv_v0.2.4_x86_64-unknown-linux-gnu.tar.gz"
     sha256 "e3ba2edff6802799d35f71624b9ca4ec0beb877546e7ad2727c458f8c93b1ec7"
   end
 

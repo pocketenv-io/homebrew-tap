@@ -1,22 +1,22 @@
 class Pocketenv < Formula
   desc "Manage your development environment with ease ✨"
   homepage "https://github.com/pocketenv-io/pocketenv"
-  url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.3/pocketenv_v0.3.3_aarch64-apple-darwin.tar.gz"
-  sha256 "a6904669ff24a6b19f1c6f07bee47c61f5f97b724909efb9bf54b45f00497645"
+  url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.4/pocketenv_v0.3.4_aarch64-apple-darwin.tar.gz"
+  sha256 "4a58133ac670b0481b841d24124203ac23e35ac036a396389106026da071452c"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.3/pocketenv_v0.3.3_x86_64-apple-darwin.tar.gz"
-    sha256 "327c03444af03712f20da1b3d4839dccfc7959280770fc35a273810c42a2b717"
+    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.4/pocketenv_v0.3.4_x86_64-apple-darwin.tar.gz"
+    sha256 "a00e8c3c72dd489cb9da821fbbe7062653b7d21496807d5980022810cfc5a870"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.3/pocketenv_v0.3.3_aarch64-apple-darwin.tar.gz"
-    sha256 "a6904669ff24a6b19f1c6f07bee47c61f5f97b724909efb9bf54b45f00497645"
+    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.4/pocketenv_v0.3.4_aarch64-apple-darwin.tar.gz"
+    sha256 "4a58133ac670b0481b841d24124203ac23e35ac036a396389106026da071452c"
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.3/pocketenv_v0.3.3_x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "b17db0714f00cbdd327d2a857b2bc884980049f153cd43589a2d75036398c418"
+    url "https://github.com/pocketenv-io/pocketenv/releases/download/v0.3.4/pocketenv_v0.3.4_x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "817a16d0127edc14abe54ff4ee8e630caee7396bee0fa76716be5d86feb0ccda"
   end
 
   def install
